@@ -1,0 +1,142 @@
+@font-face{
+    font-family: "Roboto";
+    scr: local("Roboto");
+    src: url("fonts/Roboto/Roboto-Regular.ttf");
+}
+@font-face{
+    font-family: "Philosopher";
+    scr: local("Philosopher");
+    src: url("fonts/Philosopher/Philosopher-Regular.ttf");
+}
+h2 {
+    font-family: 'Monaco', sans-serif ;
+    font-weight: bold;
+  }
+body{
+    margin: 0;
+    background-color: #fafaf6;
+    }
+	a{
+		color: rgb(28, 30, 27);
+		text-decoration: none;
+		margin-left: 50px;
+		margin-right: 50px;
+		cursor: pointer;
+		transition: color 0.0s;
+		text-align: center;
+		font-family: "Roboto";
+		font-size: 22px;
+	}
+	a:hover {
+		color: rgb(199, 213, 183);
+	} 
+	header{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	ul{
+		margin-left: 100px;
+		list-style-type: none;
+		text-align: center;
+		padding: 0%;
+	}
+	nav{
+		margin-bottom: 20px;
+	}
+	.red1{
+		color: rgb(255, 225, 0);
+	}
+p {
+    color: rgb(45, 54, 36);
+}
+.oppa{
+    text-align: center;
+    width: 150px;
+}
+img{
+    text-align: center;
+    width: 800px;
+}
+.container {
+	text-align: center;
+  }
+h1{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 0);
+    font-family: "Philosopher";
+    font-size: 50px;
+}
+.promo{
+    background-image: url("img/100.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    position: relative;
+}
+  /*footer*/
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    bottom: 0;
+    
+  }
+  .row {
+	display: flex;
+	flex-wrap: wrap;
+	
+	bottom: 0;
+	justify-content: space-evenly;
+  }
+  .footer {
+	background-color: #8f9d79;
+	padding: 50px;
+  }
+  #.footer-col {
+    width: 25%;
+    padding: 1px;
+    
+  }
+  .tryp5{
+    width: 1024px;
+    height: 1px;
+    color: solid #999;
+}
+.banner-side {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    background-color: #f0f0f0;
+}
+
+.banner-image {
+    flex: 1;
+    padding: 20px;
+}
+
+.banner-image img {
+    width: 100%; /* Изображение занимает всю ширину */
+    display: block;
+}
+
+.banner-text {
+    flex: 1;
+    padding: 5px;
+	text-align: center;
+}
+
+.button {
+    display: inline-block;
+    background-color: #1f201a;
+    color: white;
+    padding: 30px 70px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.logo-bar {
+	background-color: #565d52; /* Цвет фона */
+	padding: 10px 0; /* Отступы сверху и снизу */
+	text-align:center; /* Выравнивание логотипа по центру */
+}
+
